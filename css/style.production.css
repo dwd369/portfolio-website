@@ -411,6 +411,7 @@ form input[type="submit"]:hover {
                 align-items: center;
         background-color: #2F2F2F;
         color: #e7ca9e;
+        margin: 8px;
         padding: 10px;    
     }
 
@@ -419,6 +420,9 @@ form input[type="submit"]:hover {
         color: #1d1f24;
     }
 
+    .grid__item img {
+        width: 100%;   
+    }
     
 }
 

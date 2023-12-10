@@ -120,16 +120,26 @@ button:hover, button:focus, .button:hover, .button:focus, form input[type="submi
     width: 100%;
     padding: 10px 20px;
     border-bottom: 1px solid var(--button-bg-color);
+    
 }
 
 .page-header__item {
     flex: 0 1 200px;
     margin: auto;
+    align-self: center;
 }
 
 .page-header__item:last-child {
     flex-grow: 1;
     text-align: right;
+}
+
+.page-header img {
+    align-self: center;
+}
+
+.page-header img {
+    align-self: center;
 }
 
 .nav {
@@ -292,6 +302,7 @@ button:hover, button:focus, .button:hover, .button:focus, form input[type="submi
         align-items: center;
         background-color: var(--button-bg-color);
         color: var(--secondary-text-color);
+        margin: 8px;
         padding: 10px;    
     }
 
@@ -300,18 +311,32 @@ button:hover, button:focus, .button:hover, .button:focus, form input[type="submi
         color: #1d1f24;
     }
 
-    
+    .grid__item img {
+        width: 100%;   
+    }
 }
 
 @media all and (max-width: 500px) {
     .grid {
         grid-template-columns: 1fr;
     }
+
+    
+    .profile__portrait {
+        clear:both;
+        margin: auto 0;
+    }
+
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
     .grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .profile__portrait {
+        clear:both;
+        margin: auto 0;
     }
 }
 
