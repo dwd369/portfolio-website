@@ -311,7 +311,7 @@ svg {
         align-items: center;
         background-color: var(--button-bg-color);
         color: var(--secondary-text-color);
-        margin: 8px;
+        margin-top: 8px;
         padding: 10px;    
     }
 
@@ -319,14 +319,11 @@ svg {
         background-color: var(--secondary-text-color);
         color: #1d1f24;
     }
-<<<<<<< HEAD
 
     .grid__item img {
         width: 100%;   
     }
-=======
     
->>>>>>> origin
 }
 
 @media all and (max-width: 500px) {
@@ -339,20 +336,11 @@ svg {
         grid-template-columns: 1fr;
     }
 
-<<<<<<< HEAD
-    
-    .profile__portrait {
-        clear:both;
-        margin: auto 0;
-    }
-
-=======
     .profile__portrait {
         float: none;
         width: 100%;
 	    margin: auto;
     }
->>>>>>> origin
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
@@ -366,14 +354,9 @@ svg {
     }
 
     .profile__portrait {
-<<<<<<< HEAD
-        clear:both;
-        margin: auto 0;
-=======
         float: none;
         width: 100%;
 	    margin: auto;
->>>>>>> origin
     }
 }
 
